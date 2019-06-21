@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <title>Title</title>
+        <style>
+            canvas {
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>第一种：没有过多参数,默认调用方式：（顺时针），半边弧度缺少系数默认为3</p>
+        <canvas class="canvas" data-process="50"></canvas>
+        <canvas class="canvas" data-process="46"></canvas>
+        <canvas class="canvas" data-process="89"></canvas>
+        <canvas class="canvas" data-process="9"></canvas>
+        <p>第二种：除了选择器字符之外，调用方式：（逆时针），半边弧度缺少系数默认为3</p>
+        <canvas class="canvas1" data-process="60"></canvas>
+        <canvas class="canvas1" data-process="30"></canvas>
+        <canvas class="canvas1" data-process="70"></canvas>
+        <canvas class="canvas1" data-process="10"></canvas>
+        <p>第三种：除了选择器字符之外，调用方式：（顺时针），半边弧度缺少系数为1</p>
+        <canvas class="canvas2" data-process="60"></canvas>
+        <canvas class="canvas2" data-process="30"></canvas>
+        <canvas class="canvas2" data-process="70"></canvas>
+        <canvas class="canvas2" data-process="10"></canvas>
+        <p>第四种：各种参数调用方式：（顺时针），半边弧度缺少系数为0</p>
+        <canvas class="canvas3" data-process="60"></canvas>
+        <canvas class="canvas3" data-process="30"></canvas>
+        <canvas class="canvas3" data-process="70"></canvas>
+        <canvas class="canvas3" data-process="10"></canvas>
+        <script src="index.js"></script>
+        <script>
+            // 第一种调用方式
+            var o = new canvasProgress({
+                str: ".canvas"
+            });
+            // 第二种调用方式
+            new canvasProgress({
+                anti: true,
+                str: ".canvas1"
+            })
+            // 第三种调用方式
+            new canvasProgress({
+                anti: true,
+                str: ".canvas2",
+                radio: 1
+            })
+            // 第四种调用方式
+            new canvasProgress({
+                anti: true,
+                str: ".canvas3",
+                radio: 0,
+                fontSize: 60,
+                lineWidth: 5,
+                fillStyle: "#424042",
+                re_strokeStyle: "#9FF729",
+                over_strokeStyle: "#e5e5e5"
+            })
+        </script>
+    </body>
+</html>
