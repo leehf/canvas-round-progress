@@ -45,7 +45,7 @@
 
 
  # canvas元素demo：
- * //*<canvas class="canvas" data-process="50"></canvas>*/
+ * //    <:canvas class="canvas" data-process="50"></canvas>
                                    <br/>
  # 调用方式：                                                            <br/>
  * 默认调用方式：  <br/>
