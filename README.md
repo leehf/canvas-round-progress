@@ -4,9 +4,7 @@
 
 #可以使用
  * 安装：npm i canvas-round-progress
-<<<<<<< HEAD
 
->>>>>>>
 <table border="1">
             <tbody>
                 <tr>
@@ -44,28 +42,21 @@
             </tbody>
         </table>
  *	进度条已使用数 放置canvas元素的data-process中
- *
-<<<<<<< HEAD
- *
- *
->>>>>>>
- *
-<<<<<<< HEAD
+ ****
  *
  *
  *
  *
- *
- *
+****
  #canvas元素demo：
   * <canvas class="canvas" data-process="50"></canvas>
-  *
+****
  #调用方式：
  * 默认调用方式：
             new progress({
                           str: ".canvas"
                       });
-
+****
  * 参数修改调用方式：
                  new progress({
                             anti: true,
@@ -78,7 +69,7 @@
                             over_strokeStyle:"#e5e5e5"
                         })
 
->>>>>>>
+****
 
 # 访问DEMO地址：
 <a href="https://leehf.github.io/canvas-round-progress/" >点击访问</a>
