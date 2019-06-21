@@ -2,9 +2,9 @@
 
 >一个canvas 画的圆形进度条
 
-#可以使用
- * 安装：npm i canvas-round-progress
-
+# install安装
+ * npm i canvas-round-progress
+ * 直接下载js并引入页面中调用
 <table border="1">
             <tbody>
                 <tr>
@@ -41,20 +41,17 @@
                 </tr>
             </tbody>
         </table>
- *	进度条已使用数 放置canvas元素的data-process中                                 <br/>
- *
- *
- *
- *
- # canvas元素demo：                                                                                 <br/>
+ >进度条已使用数 放置canvas元素的data-process中                                 <br/>
+
+
+ # canvas元素demo：
  <canvas class="canvas" data-process="50"></canvas>                                                            <br/>
                                    <br/>
  # 调用方式：                                                            <br/>
- * 默认调用方式：                                                       <br/>
+ * 默认调用方式：
                   new progress({                                               <br/>
                                 str: ".canvas"                                 <br/>
                               });                                             <br/>
-                                                                         <br/>
  * 参数修改调用方式：                                                    <br/>
                        new progress({
                                   anti: true,                                         <br/>
