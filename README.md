@@ -45,10 +45,10 @@
 
 
  # canvas元素demo：
- * <p>元素：‘<canvas class="canvas" data-process="50"></canvas>’</p>
+ * // <canvas class="canvas" data-process="50"></canvas>
                                    <br/>
  # 调用方式：                                                            <br/>
- * 默认调用方式：
+ * 默认调用方式：  <br/>
                   new progress({                                               <br/>
                                 str: ".canvas"                                 <br/>
                               });                                             <br/>
