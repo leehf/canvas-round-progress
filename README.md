@@ -36,34 +36,27 @@
                     <td>进度条已使用数百分比的 canvas已用进度条颜色</td>
                 </tr>
                 <tr>
-                    <td>>fillStyle</td>
+                    <td>fillStyle</td>
                     <td>canvas 文字填充颜色</td>
                 </tr>
             </tbody>
-<<<<<<< HEAD
         </table>
  *	进度条已使用数 放置canvas元素的data-process中                                 <br/>
-=======
-        </table>  
- *	进度条已使用数 放置canvas元素的data-process中
- ****
->>>>>>> e58f84e10081c45e04e3edd47e73bad829441c24
  *
  *
  *
  *
-<<<<<<< HEAD
- #canvas元素demo：                                                                                 <br/>
-  ** <canvas class="canvas" data-process="50"></canvas> **                                                                  <br/>
+ # canvas元素demo：                                                                                 <br/>
+ __<canvas class="canvas" data-process="50"></canvas>__                                                            <br/>
                                    <br/>
- #调用方式：                                                            <br/>
+ # 调用方式：                                                            <br/>
  * 默认调用方式：                                                       <br/>
-                  ** new progress({                                               <br/>
+                  __new progress({                                               <br/>
                                 str: ".canvas"                                 <br/>
-                              });  **                                              <br/>
+                              });__                                             <br/>
                                                                          <br/>
  * 参数修改调用方式：                                                    <br/>
-                       ** new progress({
+                       __new progress({
                                   anti: true,                                         <br/>
                                   str: ".canvas",                                     <br/>
                                   radio: 0,                                           <br/>
@@ -72,7 +65,7 @@
                                   fillStyle: "#424042",                               <br/>
                                   re_strokeStyle:"#9FF729",                           <br/>
                                   over_strokeStyle:"#e5e5e5"                          <br/>
-                             })**
+                             })__
 
 # 访问DEMO地址：
 <a href="https://leehf.github.io/canvas-round-progress/" >点击访问</a>
