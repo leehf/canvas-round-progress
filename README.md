@@ -47,16 +47,16 @@
  *
  *
  # canvas元素demo：                                                                                 <br/>
- __<canvas class="canvas" data-process="50"></canvas>__                                                            <br/>
+ <canvas class="canvas" data-process="50"></canvas>                                                            <br/>
                                    <br/>
  # 调用方式：                                                            <br/>
  * 默认调用方式：                                                       <br/>
-                  __new progress({                                               <br/>
+                  new progress({                                               <br/>
                                 str: ".canvas"                                 <br/>
-                              });__                                             <br/>
+                              });                                             <br/>
                                                                          <br/>
  * 参数修改调用方式：                                                    <br/>
-                       __new progress({
+                       new progress({
                                   anti: true,                                         <br/>
                                   str: ".canvas",                                     <br/>
                                   radio: 0,                                           <br/>
@@ -65,7 +65,7 @@
                                   fillStyle: "#424042",                               <br/>
                                   re_strokeStyle:"#9FF729",                           <br/>
                                   over_strokeStyle:"#e5e5e5"                          <br/>
-                             })__
+                             })
 
 # 访问DEMO地址：
 <a href="https://leehf.github.io/canvas-round-progress/" >点击访问</a>
