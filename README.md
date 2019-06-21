@@ -45,7 +45,8 @@
 
 
  # canvas元素demo：
- <canvas class="canvas" data-process="50"></canvas>                                                            <br/>
+ <canvas class="canvas" data-process="50"></canvas>
+ <canvas class="canvas1" data-process="50"></canvas>
                                    <br/>
  # 调用方式：                                                            <br/>
  * 默认调用方式：
@@ -66,3 +67,20 @@
 
 # 访问DEMO地址：
 <a href="https://leehf.github.io/canvas-round-progress/" >点击访问</a>
+ <script src="index.js"></script>
+   <script>
+                     // 第一种调用方式
+                     var o = new canvasProgress({
+                         str: ".canvas"
+                     });
+                   new canvasProgress({
+                             anti: true,
+                             str: ".canvas1",
+                             radio: 0,
+                             fontSize: 60,
+                             lineWidth: 5,
+                             fillStyle: "#424042",
+                             re_strokeStyle: "#9FF729",
+                             over_strokeStyle: "#e5e5e5"
+                         })
+   </script>
