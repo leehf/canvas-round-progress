@@ -54,49 +54,25 @@
  *
 <<<<<<< HEAD
  #canvas元素demo：                                                                                 <br/>
-  * <canvas class="canvas" data-process="50"></canvas>                                                                   <br/>
+  ** <canvas class="canvas" data-process="50"></canvas> **                                                                  <br/>
                                    <br/>
  #调用方式：                                                            <br/>
  * 默认调用方式：                                                       <br/>
-            new progress({                                               <br/>
-                          str: ".canvas"                                 <br/>
-                      });                                                <br/>
+                  ** new progress({                                               <br/>
+                                str: ".canvas"                                 <br/>
+                              });  **                                              <br/>
                                                                          <br/>
  * 参数修改调用方式：                                                    <br/>
-                 new progress({
-                            anti: true,                                         <br/>
-                            str: ".canvas",                                     <br/>
-                            radio: 0,                                           <br/>
-                            fontSize: 60,                                       <br/>
-                            lineWidth: 5,                                       <br/>
-                            fillStyle: "#424042",                               <br/>
-                            re_strokeStyle:"#9FF729",                           <br/>
-                            over_strokeStyle:"#e5e5e5"                          <br/>
-                        })
-=======
-****
- #canvas元素demo：   
-  * <canvas class="canvas" data-process="50"></canvas>    
-****
- #调用方式：   
- * 默认调用方式：  
-            new progress({  
-                          str: ".canvas"   
-                      });    
-****   
- * 参数修改调用方式：      
-                 new progress({  
-                            anti: true,    
-                            str: ".canvas",    
-                            radio: 0,    
-                            fontSize: 60,   
-                            lineWidth: 5,   
-                            fillStyle: "#424042",   
-                            re_strokeStyle:"#9FF729",   
-                            over_strokeStyle:"#e5e5e5"   
-                        })  
->>>>>>> e58f84e10081c45e04e3edd47e73bad829441c24
-
+                       ** new progress({
+                                  anti: true,                                         <br/>
+                                  str: ".canvas",                                     <br/>
+                                  radio: 0,                                           <br/>
+                                  fontSize: 60,                                       <br/>
+                                  lineWidth: 5,                                       <br/>
+                                  fillStyle: "#424042",                               <br/>
+                                  re_strokeStyle:"#9FF729",                           <br/>
+                                  over_strokeStyle:"#e5e5e5"                          <br/>
+                             })**
 
 # 访问DEMO地址：
 <a href="https://leehf.github.io/canvas-round-progress/" >点击访问</a>
