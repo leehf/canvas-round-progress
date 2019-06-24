@@ -1,11 +1,42 @@
-# canvas 画的圆形进度条
+# canvas-round-progress
 
->一个canvas 画的圆形进度条
+	A circular progress bar drawn by canvas that can be used to correlate the number of items left or the progress bar
+ ***
 
-# install安装
- * npm i canvas-round-progress
- * 直接下载js并引入页面中调用
-<table border="1">
+# install
+
+###### 安装和调用
+	1. npm i canvas-round-progress
+ 	2. 直接下载js并直接引入： <script src='canvas-round-progress.js'></script>
+ ___
+
+
+
+ # canvas Taget：
+
+	HTML5标签：<canvas class="canvas" data-process="50"></canvas>
+
+ # 调用方式：                                                            <br/>
+ * 默认调用方式：  <br/>
+
+		 new progress({
+              str: ".canvas"
+               });
+ * 参数修改调用方式：
+
+   		 new progress({
+                anti: true,
+                str: ".canvas",
+                radio: 0,
+                fontSize: 60,
+                lineWidth: 5,
+                fillStyle: "#424042",
+                re_strokeStyle:"#9FF729",
+                over_strokeStyle:"#e5e5e5"
+               })
+# param
+
+<table >
             <tbody>
                 <tr>
                     <th>参数名</th>
@@ -41,28 +72,12 @@
                 </tr>
             </tbody>
         </table>
- >进度条已使用数 放置canvas元素的data-process中                                 <br/>
 
 
- # canvas元素demo：
- * //    < canvas class="canvas" data-process="50">< /canvas>
-                                   <br/>
- # 调用方式：                                                            <br/>
- * 默认调用方式：  <br/>
-                  new progress({                                               <br/>
-                                str: ".canvas"                                 <br/>
-                              });                                             <br/>
- * 参数修改调用方式：                                                    <br/>
-                       new progress({
-                                  anti: true,                                         <br/>
-                                  str: ".canvas",                                     <br/>
-                                  radio: 0,                                           <br/>
-                                  fontSize: 60,                                       <br/>
-                                  lineWidth: 5,                                       <br/>
-                                  fillStyle: "#424042",                               <br/>
-                                  re_strokeStyle:"#9FF729",                           <br/>
-                                  over_strokeStyle:"#e5e5e5"                          <br/>
-                             })
+ 	进度条已使用数 放置canvas元素的data-process中，如不写则默认为剩余数为0
+___
 
 # 访问DEMO地址：
-<a href="https://leehf.github.io/canvas-round-progress/" >点击访问</a>
+* <a href="https://leehf.github.io/canvas-round-progress/" >canvas-round-progress </a>
+___
+
