@@ -6,8 +6,12 @@
 # install
 
 ###### 安装和调用
-	1. npm i canvas-round-progress
- 	2. 直接下载js并直接引入： <script src='canvas-round-progress.js'></script>
+	 		
+*  npm i canvas-round-progress  
+	* [通过npm安装后的调用方式：](#an)
+	
+*  直接下载js并直接引入： 
+	* [直接下载index.js后：](#zj)
  ___
 
 
@@ -17,14 +21,31 @@
 	HTML5标签：<canvas class="canvas" data-process="50"></canvas>
 
  # 调用方式：                                                            <br/>
- * 默认调用方式：  <br/>
+ * <span id='an'>通过npm安装后的调用方式：</span>
+ 	* 调用方式
+ 	
+    		import引入：import canvas from 'canvas-round-progress'
+                  new canvas({
+                    anti: true,
+                    str: "canvas",
+                    radio: 10,
+                    fontSize: 60,
+                    lineWidth: 5,
+                    fillStyle: "#424042",
+                    re_strokeStyle: "#9FF729",
+                    over_strokeStyle: "#e5e5e5"
+              })
 
-		 new progress({
+ 	
+  * <span id="zj">直接js引入调用方式：</span> 直接js引入：< script src='canvas-round-progress.js'>< /script>  
+ 	* 默认调用方式：  <br/>
+
+			 new progress({
               str: ".canvas"
                });
- * 参数修改调用方式：
+	 * 参数修改调用方式：
 
-   		 new progress({
+   			 new progress({
                 anti: true,
                 str: ".canvas",
                 radio: 0,
@@ -78,6 +99,7 @@
 ___
 
 # 访问DEMO地址：
-* <a href="https://leehf.github.io/canvas-round-progress/" >canvas-round-progress </a>
+* <a href="https://leehf.github.io/canvas-round-progress/" >canvas-round-progress效果展示</a>
+* <a href="https://www.npmjs.com/package/canvas-round-progress" >npm下载 </a>
 ___
 

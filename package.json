@@ -1,11 +1,12 @@
 {
   "name": "canvas-round-progress",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.4",
+  "keywords": ["canvas-round-progress","canvas-round","process"],
+  "description": "修复某个变量问题和修改了md文件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "leehf",
   "license": "ISC"
 }
