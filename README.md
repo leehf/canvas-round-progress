@@ -99,7 +99,7 @@
 ___
 
 # 访问DEMO地址：
-* <a href="https://leehf.github.io/canvas-round-progress/" >canvas-round-progress效果展示</a>
+* <a href="https://leehf.github.io/canvas-round-progress/dist" >canvas-round-progress效果展示</a>
 * <a href="https://www.npmjs.com/package/canvas-round-progress" >npm下载 </a>
 ___
 
